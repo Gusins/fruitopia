@@ -1,19 +1,61 @@
 <header class="header">
-  <div class="container">
-    <nav class="nav">
-      <a class="nav-logo" href="./index.html" aria-label="Site logo">
-        <svg class="nav-logo-icon" width="100" height="30">
-          <use href="{=$icon-path}"></use>
-        </svg>
-      </a>
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-act}" href="./page-2.html">Page 2</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-curr}" href="./page-3.html">Page 3</a>
-        </li>
-      </ul>
-    </nav>
-  </div>
+	<div class="container">
+		<nav class="navigation">
+			<ul class="navigation-list">
+				<li class="header-items"><a href="#how-it-works"
+						class="navigation-items-link">How
+						It Works</a></li>
+				<li class="header-items"><a href="#fruits"
+						class="navigation-items-link">Fruits</a></li>
+				<li class="header-items"><a href="#contacts"
+						class="navigation-items-link">Contacts</a></li>
+			</ul>
+			<a href="index.html" class="logo">
+				<svg class="logo-svg" width="16" height="16">
+					<use href="/img/icon.svg#logo"></use>
+				</svg>
+				<span class="logo-text">fresh harvest box</span>
+			</a>
+			<a href="#fruits" class="navigation-basket">
+				<svg class="basket-svg" width="28" height="28">
+					<use href="/img/icon.svg#basket"></use>
+				</svg>
+			</a>
+			<button class="burger button-reset js-open-menu" aria-expanded="false"
+				aria-controls="mobile-menu">
+				<div class="burger-line burger-line-first"></div>
+				<div class="burger-line burger-line-second"></div>
+				<div class="burger-line burger-line-third"></div>
+				<div class="burger-line burger-line-fourth"></div>
+			</button>
+		</nav>
+	</div>
+	<!-- =======================================================-_(Mobile menu)_-======================================================= -->
+	<div class="menu-container js-menu-container " id="mobile-menu">
+		<ul class="navigation-mobile-list">
+			<li class="navigation-items">
+				<a href="#how-it-works" class="menu-box-link">
+					How It Works
+				</a>
+			</li>
+			<li class="navigation-items">
+				<a href="#fruits" class="menu-box-link">
+					Fruits
+				</a>
+			</li>
+			<li class="navigation-items">
+				<a href="#contacts" class="menu-box-link">
+					Contacts
+				</a>
+			</li>
+			<li class="navigation-items">
+				<a href="#fruits" class="menu-box-link">
+					<svg class="basket" width="28" height="28">
+						<use href="/img/icon.svg#basket"></use>
+					</svg>
+				</a>
+			</li>
+		</ul>
+	</div>
+	<!-- =======================================================-_(/Mobile menu)_-====================================================== -->
 </header>

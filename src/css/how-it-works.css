@@ -1,0 +1,145 @@
+.how-it-works-section {
+	background-color: var(--brand-color);
+}
+
+.order-fruit-container {
+	margin-bottom: 44px;
+
+	text-align: center;
+	letter-spacing: -0.04em;
+
+	color: #ffffff;
+
+	text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+}
+@media only screen and (min-width: 1280px) {
+	.order-fruit-container {
+		max-width: 635px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+.order-fruit-title {
+	margin-bottom: 14px;
+	font-weight: 500;
+	font-size: 28px;
+	line-height: 1;
+	text-transform: uppercase;
+	max-width: 624px;
+	margin: 0 auto 14px auto;
+}
+@media only screen and (min-width: 768px) {
+	.order-fruit-title {
+		font-size: 40px;
+		line-height: 1.1;
+	}
+}
+.order-fruit-text {
+	font-size: 14px;
+	line-height: 1.29;
+}
+@media only screen and (min-width: 768px) {
+	.order-fruit-text {
+		padding: 0 112px;
+	}
+}
+@media only screen and (min-width: 1280px) {
+	.order-fruit-text {
+		padding: 0 74px;
+	}
+	.steps-order-item {
+		width: calc((100% - 2 * 16px) / 3);
+	}
+}
+
+.steps-order-item:not(:last-child) {
+	margin-bottom: 20px;
+}
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
+	.steps-order-item:not(:last-child) {
+		margin-bottom: 24px;
+	}
+	.steps-order-item {
+		margin: 0 auto;
+		width: 389px;
+		height: 128px;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.steps-order-item {
+		max-width: 335px;
+		min-height: 112px;
+	}
+}
+.steps-order-list {
+	margin-bottom: 44px;
+}
+.steps-order-item {
+	background-color: #ffffff;
+	border-radius: 20px;
+}
+@media only screen and (min-width: 1280px) {
+	.steps-order-item:not(:last-child) {
+		margin-bottom: 0;
+	}
+	.steps-order-list {
+		display: flex;
+		gap: 24px;
+		justify-content: center;
+		margin-bottom: 80px;
+	}
+}
+
+.steps-order-color {
+	display: flex;
+	align-items: center;
+
+	gap: 14px;
+	padding: 20px;
+}
+
+.steps {
+	min-width: 136px;
+	height: 48px;
+	padding: 10px;
+	border-radius: 200px;
+	font-size: 18px;
+	line-height: 1.33;
+	align-items: center;
+	letter-spacing: -0.04em;
+	text-align: center;
+	color: #ffffff;
+}
+.first-step {
+	background-color: var(--brand-color);
+}
+.step-text {
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.29;
+}
+
+.second-step {
+	background-color: var(--color-hover);
+}
+.third-step {
+	background-color: var(--accent-color);
+}
+.gif-box {
+	display: flex;
+	justify-content: center;
+	border-bottom: 80px;
+}
+@media only screen and (min-width: 768px) {
+	.gif-box {
+		border-bottom: 144px;
+	}
+}
+@media only screen and (min-width: 1280px) {
+	.gif-box {
+		border-bottom: 150px;
+	}
+}
+.gif {
+	border-radius: 20px;
+}

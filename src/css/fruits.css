@@ -1,0 +1,236 @@
+.fruits {
+  background-color: var(--brand-color);
+}
+
+.fruits-begin {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1;
+  display: flex;
+  justify-content: center;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+  margin-bottom: 14px;
+}
+@media only screen and (min-width: 768px) {
+  .fruits-begin {
+    font-size: 40px;
+    line-height: 44px;
+  }
+}
+
+.fruits-about {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.04em;
+  color: #ffffff;
+  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+  margin-bottom: 44px;
+}
+@media only screen and (min-width: 768px) {
+  .fruits-about {
+  }
+}
+
+.fruits-name {
+  width: 122px;
+  height: 28px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.04em;
+  color: #ffffff;
+}
+@media only screen and (min-width: 768px) {
+  .fruits-name {
+    font-size: 32px;
+    line-height: 38px;
+    margin-bottom: 7px;
+  }
+}
+
+.fruits-text {
+  width: 32px;
+  height: 18px;
+  left: 24px;
+  top: 100px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+@media only screen and (min-width: 768px) {
+  .fruits-text {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+.fruits-cost {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px;
+  gap: 10px;
+  width: 126px;
+  height: 42px;
+  background: #ffffff;
+  border-radius: 200px;
+  margin-top: 6px;
+  z-index: 5;
+}
+.text-cost {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 0.7;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.04em;
+  color: #ae1332;
+}
+
+.fruits-card {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  min-height: 465px;
+  background: #f8766b;
+  border-radius: 20px;
+  padding: 64px 24px 24px 24px;
+  justify-content: space-between;
+}
+
+.fruits-img-gallery {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+	transform: translate(-50%, -75%);
+}
+@media only screen and (min-width: 768px) {
+  .fruits-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  .fruits-card {
+    width: calc((100% - 1 * 16px) / 2);
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .fruits-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  .fruits-card {
+    width: calc((100% - 3 * 16px) / 3);
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .fruits-card {
+    margin-bottom: 14px;
+  }
+}
+
+.banana {
+  background: #edd251;
+}
+.Watermelon {
+  background: #9dc262;
+}
+.Lime {
+  background: #bfd663;
+}
+.Apple {
+  background: #e93f29;
+}
+.Peach {
+  background: #db4f4b;
+}
+.Plums {
+  background: #9b5366;
+}
+@media only screen and (max-width: 768px) {
+  .Plums {
+    display: none;
+  }
+  .Orange {
+    display: none;
+  }
+}
+.Orange {
+  background: #f47f4c;
+}
+.Kiwi {
+  background: #98b37e;
+}
+@media only screen and (max-width: 1280px) {
+  .Kiwi {
+    display: none;
+  }
+}
+.modal-but {
+  display: flex;
+  border: none;
+  background: #9dc262;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-but:hover,
+.modal-but:focus {
+  background: #ffffff;
+}
+
+.modal-but:hover p {
+  color: #9dc262;
+}
+
+.modal-but:hover svg {
+  fill: #9dc262;
+}
+
+@media only screen and (min-width: 768px) {
+  .modal-but {
+    width: 114px;
+    height: 114px;
+  }
+}
+.button-fruit {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.text-but {
+  display: flex;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+  transform: rotate(-14deg);
+}
+.arrow-svg {
+  display: flex;
+  fill: #ffffff;
+  margin-right: 6px;
+  margin-top: 20px;
+}

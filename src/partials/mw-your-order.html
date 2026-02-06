@@ -1,0 +1,105 @@
+<div class="mw-your-order modal active" data-modal="1">
+
+	<div class="your-order">
+		<div class="orders-header-wrapper">
+			<h2 class="mw-title">Your Order</h2>
+			<svg class="order-icon js-modal-close" width="24" height="24">
+				<use href="/img/icon.svg#close"></use>
+			</svg>
+		</div>
+		<form>
+			<ul class="order-list">
+				<li class="order-product">
+					<svg class="product-delete">
+						<use href="../img/Delete icon.svg"></use>
+					</svg>
+
+					<h3 class="product-title">Strawberry</h3>
+					<div class="product-details">
+						<p class="product-price">60 UAH</p>
+						<div class="product-quantity">
+							<button class="quantity-decrease">-</button>
+							<p class="product-counter">
+								1
+							</p>
+							<button class="quantity-increase">+</button>
+						</div>
+					</div>
+
+					<img class="product-image" src="../img/fruits/str@1x.webp"
+						alt="Strawberry" loading="lazy" />
+				</li>
+				<li class="order-product">
+					<svg class="product-delete">
+						<use href="../img/Delete icon.svg"></use>
+					</svg>
+
+					<h3 class="product-title">Apple</h3>
+					<div class="product-details">
+						<p class="product-price">50 UAH</p>
+						<div class="product-quantity">
+							<button class="quantity-decrease">-</button>
+							<p class="product-counter">
+								1
+							</p>
+							<button class="quantity-increase">+</button>
+						</div>
+					</div>
+
+					<img class="product-image" src="../img/fruits/apple@1x.webp"
+						alt="Strawberry" loading="lazy" />
+				</li>
+				<li class="order-product">
+					<svg class="product-delete">
+						<use href="../img/Delete icon.svg"></use>
+					</svg>
+
+					<h3 class="product-title">Banana</h3>
+					<div class="product-details">
+						<p class="product-price">80 UAH</p>
+						<div class="product-quantity">
+							<button class="quantity-decrease">-</button>
+							<p class="product-counter">
+								1
+							</p>
+							<button class="quantity-increase">+</button>
+						</div>
+					</div>
+
+					<img class="product-image" src="../img/fruits/ban@1x.webp"
+						alt="Strawberry" loading="lazy" />
+				</li>
+
+
+
+
+
+
+			</ul>
+			<div class="form-inputs">
+				<input class="form-data" type="name" name="name"
+					placeholder="Enter full name..." required minlength="5" />
+				<input class="form-data" type="email" name="mail"
+					placeholder="Enter email..." required />
+				<input class="form-data" type="card" name="card"
+					placeholder="Enter card.." required maxlength="19" />
+				<input class="form-data" type="adress" name="adress"
+					placeholder="Enter your adress.." required />
+				<textarea class="form-data form-comment" name="comments"
+					placeholder="Enter comments..."></textarea>
+
+				<div class="submit-information">
+					<div class="total-price">
+						<p>
+							Total
+						</p>
+						<p class="value">
+							210 UAH
+						</p>
+					</div>
+					<button class="order-submit" type="submit">Submit</button>
+				</div>
+			</div>
+		</form>
+	</div>
+</div>
