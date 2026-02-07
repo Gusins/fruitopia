@@ -48,14 +48,41 @@ const products = [{
 ];
 
 
-// const form = document.querySelector(".modal-form");
-// const btn = document.querySelector('.form-btn');
-// const order = document.querySelector('.mw-your-order');
-// const overlay = document.querySelector('.overlay');
-// console.log(form, btn);
-// form.addEventListener("submit", e => {
-// 	e.preventDefault();
-// 	overlay.classList.remove("active");
-// 	order.classList.remove('active');
-// 	form.reset();
-// }); 
+const form = document.querySelector(".modal-form");
+const btn = document.querySelector('.order-submit');
+const order = document.querySelector('.mw-your-order');
+const overlay = document.querySelector('.overlay');
+const value = document.querySelector('.value');
+const list = document.querySelector('.order-list');
+const counter = document.querySelector('.product-counter');
+const price = document.querySelector('.product-price');
+
+
+form.addEventListener("submit", e => {
+	e.preventDefault();
+
+
+
+	// overlay.classList.remove("active");
+	// order.classList.remove('active');
+	form.reset();
+});
+
+// list.addEventListener('click', e => {
+// 	const targetClass = e.target.classList.value;
+// 	const currentNumber = Number(counter.textContent);
+
+// 	if (targetClass === "quantity-increase") {
+// 		e.preventDefault();
+// 		counter.textContent = currentNumber + 1;
+// 		price.textContent = `${60 * (currentNumber + 1)} UAH`;
+
+// 	} else if (targetClass === "quantity-decrease") {
+// 		e.preventDefault();
+// 		if (currentNumber <= 1) return;
+// 		counter.textContent = Number(counter.textContent) - 1;
+// 		price.textContent = `${60 / (currentNumber - 1)} UAH`;
+
+// 	}
+
+// });
