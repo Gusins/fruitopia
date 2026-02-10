@@ -127,17 +127,21 @@
 	color: #fff;
 	border: 1px solid #fff;
 }
+
 .product-quantity > button {
 	font-size: 18px;
 	font-weight: 600;
 
-	line-height: 0.98;
 	padding: 5px 15px;
 	margin-bottom: 2px;
 }
 .product-price {
 	background-color: #fff;
 	color: var(--brand-color);
+}
+.order-product .product-quantity > button,
+.order-product .product-price {
+	padding: 0 10px;
 }
 
 .submit-information {

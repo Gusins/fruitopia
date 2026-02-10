@@ -11,8 +11,12 @@
 	align-items: center;
 	gap: 20px;
 }
+
 .header {
 	background-color: var(--color-text);
+	position: fixed;
+	z-index: 15;
+	width: 100%;
 }
 
 .logo {

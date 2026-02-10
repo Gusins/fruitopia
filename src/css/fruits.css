@@ -80,7 +80,7 @@
 	position: relative;
 	z-index: 10;
 }
-.product-details-fruits .product-price {
+.product-details-fruits > .product-price {
 	padding: 12px 21px;
 	width: fit-content;
 	height: 42px;
